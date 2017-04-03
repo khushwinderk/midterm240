@@ -1,0 +1,430 @@
+body {
+      font:'Covered By Your Grace', cursive;
+      color: #e1dece;
+      background-image: url("background2.jpg");
+  }
+
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      font-color: #e1dece;
+       text-shadow: 0px 0 15px #eaf07b;
+      -webkit-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+
+ }
+
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #ff3bfb;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      color: #bdbdbd;
+  }
+
+  .bg-1 h3 {color:#e1dece ;}
+  .bg-1 p {font-style: italic;font-color:#e1dece}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+
+  .navbar {
+      font-family: 'Rock Salt', cursive;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 10;
+  }
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #000 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+      text-shadow: 0px 0 15px #eaf07b;
+      -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #2d2d30 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+
+  .ticketheader {
+    background: #2d2d30;
+    color: #bdbdbd;
+    font-family: 'Electrolize', sans-serif;
+}
+.ticketheader h3 {color: #fff; font-family:'Electrolize', cursive;}
+.ticketheader h3:hover {text-shadow: 0px 0 15px #eaf07b;
+      -webkit-transition: all 0.7s ease;
+      transition: all 0.7s ease;}
+    
+
+.ticketheader {font-style: italic; font-family:'Electrolize', sans-serif; }
+
+.container p{
+ color:#afd54c;
+}
+
+body{
+  background-image: url("background2.jpg");
+}
+
+#pricing{
+  width: 989px;
+  margin: 100px auto;
+  font-family: 'Electrolize'
+}
+
+.price_card{
+  width: 300px;
+  background: rgb(255, 255, 255);
+  display: inline-table;
+  top:0;
+
+}
+.price_card:not(:last-child){
+  margin-right: 40px;
+}
+.header{
+  color: rgb(255, 255, 255);
+}
+.alpha .header{
+  background-image: url("crowd.gif");
+}
+.bravo .header{
+  background-image: url("bassnectar.gif");
+}
+.charlie .header{
+  background-image: url("finger.gif");
+}
+.price{
+  width: 100%;
+  font-size: 60px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  padding: 30px 0 10px;
+}
+.name{
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 0 0 30px;
+}
+.features{
+  list-style: none;
+  text-align: center;
+  color: rgb(138, 138, 138);
+  margin: 0;
+  padding: 0;
+}
+.features li{
+  margin: 0 35px;
+  padding: 20px 15px;
+  width: 200px;
+}
+.features li:not(:last-child){
+  border: 1px solid rgb(242, 242, 242);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+button{
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 20px auto 35px;
+}
+.alpha button{
+  background: #ff3bfb
+}
+.bravo button{
+  background: #53fffc
+}
+.charlie button{
+  background: rgb(48, 219, 181);
+}
+.tip{
+  font-family: 'Electrolize'
+  position: absolute;
+  color: rgb(117, 117, 117);
+  margin: 10px 5px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:20px;
+  padding-bottom:30px;
+
+}
+
+* { margin: 0; padding: 0; }
+body { background-color: #eee; }
+
+.section-header {
+  text-align: center;
+  font-family:'Electrolize';
+      text-shadow: 0px 0 15px #eaf07b;
+      -webkit-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: small-caps 300 75px 'Lato', sans-serif;
+  letter-spacing: 3px;
+  color: #222;
+}
+
+.gallery {
+  margin: 15px auto;
+  text-align: center;
+  max-width: 900px;
+}
+
+.gallery-item-wrapper {
+  margin: 10px auto;
+  display: inline-block;
+  
+  height: 236px; /* WITH BOTTOM DESCRIPTION: 216px */
+  width: 295px; /* 295px */
+  overflow: hidden;
+  
+  position: relative;
+}
+
+.gallery-image {
+  height: 166px; /* 166px */
+  width: 295px;
+  
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+  
+  position: absolute; /* NECESSARY? */
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: none;
+  
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.gallery-image:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00BFFF;
+  opacity: 0;
+ 
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .5s ease;
+}
+
+.gallery-image:hover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  opacity: .7;
+}
+
+
+.gallery-image:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  
+}
+
+
+.play {
+  position: relative;
+  top: -180px;
+  color: #fff;
+  font-size: 75px;
+
+  height: 166px;
+  width: 295px;
+  display: block;
+  opacity: 0;
+  z-index: 100;
+  
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.play:hover {
+  opacity: 1;
+  top: -145px;
+  
+  -moz-transform: scale(.8);
+  -webkit-transform: scale(.8);
+  -o-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+}
+
+.text {
+  position: relative;
+  top: 165px;
+  display: inline-block;
+  
+  font: 100 16px 'Electrolize';
+  margin: 0 auto;
+  text-align: center;
+  width: 295px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #111;
+  color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  letter-spacing: .7px;
+  line-height: 1.2;
+}
+
+.span-text {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 19px;
+  font-family: 'Electrolize', sans-serif;
+}
+
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+
